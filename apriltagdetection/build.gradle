@@ -1,0 +1,97 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+
+        consumerProguardFiles 'consumer-rules.pro'
+
+
+        /*externalNativeBuild {
+            cmake {
+                cppFlags "-frtti -fexceptions"
+                arguments "-DANDROID_STL=c++_shared"
+                //abiFilters 'x86', 'x86_64', 'armeabi-v7a', 'arm64-v8a'
+                abiFilters 'armeabi-v7a'
+            }
+
+        }*/
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            //version '3.10.2'
+            path "C:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag\\CMakeLists.txt"
+        }
+    }
+
+    sourceSets { main { jni.srcDirs = ['src/main/jni', 'src/main/jniLibs'] } }
+
+    flavorDimensions 'cpuArch'
+    productFlavors {
+        arm7 {
+            dimension 'cpuArch'
+            ndk {
+                abiFilter 'armeabi-v7a'
+            }
+        }
+        arm8 {
+            dimension 'cpuArch'
+            ndk {
+                abiFilters 'arm64-v8a'
+            }
+        }
+        x86 {
+            dimension 'cpuArch'
+            ndk {
+                abiFilter 'x86'
+            }
+        }
+        x86_64 {
+            dimension 'cpuArch'
+            ndk {
+                abiFilter 'x86_64'
+            }
+        }
+        universal {
+            dimension 'cpuArch'
+            // include all default ABIs. with NDK-r16, they are:
+            //   armeabi-v7a, arm64-v8a, x86, x86_64
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.2.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.6'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1'
+    def camerax_version = "1.0.0-beta03"
+    implementation "androidx.camera:camera-core:${camerax_version}"
+    implementation "androidx.camera:camera-camera2:${camerax_version}"
+    implementation "androidx.camera:camera-lifecycle:${camerax_version}"
+
+
+    def camerax_view_version = "1.0.0-alpha10"
+    implementation "androidx.camera:camera-view:$camerax_view_version"
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+}
