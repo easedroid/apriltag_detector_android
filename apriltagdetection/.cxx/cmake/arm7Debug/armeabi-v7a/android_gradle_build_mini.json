@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "C:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\amitd\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\amitd\\AndroidStudioProjects\\apriltag_android\\apriltag_detector_android\\apriltagdetection\\.cxx\\cmake\\arm7Debug\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "apriltag-Debug-armeabi-v7a": {
+      "artifactName": "apriltag",
+      "buildCommand": "C:\\Users\\amitd\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\amitd\\AndroidStudioProjects\\apriltag_android\\apriltag_detector_android\\apriltagdetection\\.cxx\\cmake\\arm7Debug\\armeabi-v7a --target apriltag",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\amitd\\AndroidStudioProjects\\apriltag_android\\apriltag_detector_android\\apriltagdetection\\build\\intermediates\\cmake\\arm7Debug\\obj\\armeabi-v7a\\libapriltag.so"
+    }
+  }
+}

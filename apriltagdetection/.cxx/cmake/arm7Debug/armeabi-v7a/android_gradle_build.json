@@ -1,0 +1,173 @@
+
+{
+	"buildFiles" : 
+	[
+		"C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\amitd\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\amitd\\AndroidStudioProjects\\apriltag_android\\apriltag_detector_android\\apriltagdetection\\.cxx\\cmake\\arm7Debug\\armeabi-v7a --target clean"
+	],
+	"libraries" : 
+	{
+		"apriltag-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "apriltag",
+			"buildCommand" : "C:\\Users\\amitd\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\amitd\\AndroidStudioProjects\\apriltag_android\\apriltag_detector_android\\apriltagdetection\\.cxx\\cmake\\arm7Debug\\armeabi-v7a --target apriltag",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/apriltag.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/apriltag_jni.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/apriltag_quad_thresh.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/common/g2d.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/common/getopt.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/common/homography.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/common/image_u8.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/common/image_u8x3.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/common/matd.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/common/pnm.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/common/string_util.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/common/svd22.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/common/time_util.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/common/unionfind.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/common/workerpool.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/common/zarray.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/common/zhash.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/common/zmaxheap.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/apriltag_pose.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/tag36h11.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/tagCustom48h12.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/tagStandard52h13.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dapriltag_EXPORTS -IC:\\Users\\amitd\\AndroidStudioProjects\\AprilTagDetector\\apriltagdetection\\src\\main\\apriltag  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/amitd/AndroidStudioProjects/AprilTagDetector/apriltagdetection/src/main/apriltag/tagCustom48h12_6k_12k.c",
+					"workingDirectory" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a"
+				}
+			],
+			"output" : "C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/build/intermediates/cmake/arm7Debug/obj/armeabi-v7a/libapriltag.so",
+			"toolchain" : "2952137125"
+		}
+	},
+	"toolchains" : 
+	{
+		"2952137125" : 
+		{
+			"cCompilerExecutable" : "C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/amitd/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

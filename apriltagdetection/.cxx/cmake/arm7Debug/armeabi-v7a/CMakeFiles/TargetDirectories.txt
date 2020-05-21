@@ -1,0 +1,3 @@
+C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a/CMakeFiles/apriltag.dir
+C:/Users/amitd/AndroidStudioProjects/apriltag_android/apriltag_detector_android/apriltagdetection/.cxx/cmake/arm7Debug/armeabi-v7a/CMakeFiles/edit_cache.dir
