@@ -1,2 +1,0 @@
-include ':app', ':apriltagdetection'
-rootProject.name='AprilTag Detector'
